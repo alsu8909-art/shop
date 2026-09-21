@@ -12,7 +12,6 @@ body {
   background-color: #f3f5fa;
 }
 
-/* ===== ШАПКА ===== */
 .header {
   width: 100%;
   background: #ffffff;
@@ -98,7 +97,6 @@ body {
   white-space: nowrap;
 }
 
-/* ===== КОНТЕЙНЕР СТРАНИЦЫ ===== */
 .page-container {
   max-width: 1440px;
   margin: 0 auto;
@@ -106,7 +104,6 @@ body {
   box-sizing: border-box;
 }
 
-/* ===== КАТАЛОГ ===== */
 .catalog-title {
   font-size: 28px;
   font-weight: 700;
@@ -115,7 +112,6 @@ body {
   text-align: left;
 }
 
-/* ===== СЕТКА ТОВАРОВ ===== */
 .products-grid {
   display: grid;
   grid-template-columns: repeat(4, 302px);
@@ -141,7 +137,6 @@ body {
   }
 }
 
-/* ===== КАРТОЧКА ТОВАРА ===== */
 .product-card {
   width: 302px !important;
   height: 414px;
@@ -185,7 +180,6 @@ body {
   font-weight: 400;
 }
 
-/* ===== STEPPER ===== */
 .quantity-control {
   display: flex;
   align-items: center;
@@ -225,14 +219,12 @@ body {
   text-align: center;
 }
 
-/* ===== ЦЕНА ===== */
 .price {
   font-size: 14px;
   font-weight: 700;
   color: #212529;
 }
 
-/* ===== КНОПКА ADD TO CART ===== */
 .add-to-cart {
   display: flex;
   align-items: center;
@@ -264,7 +256,6 @@ body {
   flex-shrink: 0;
 }
 
-/* ===== ПОПАП КОРЗИНЫ ===== */
 .cart-popup {
   position: fixed;
   top: 72px;
@@ -277,7 +268,6 @@ body {
   z-index: 9999;
 }
 
-/* Заголовок — БЕЗ линии снизу */
 .cart-popup-header {
   display: flex;
   justify-content: space-between;
@@ -314,7 +304,6 @@ body {
   text-align: center;
 }
 
-/* ===== ЭЛЕМЕНТ КОРЗИНЫ — БЕЗ линии снизу ===== */
 .cart-item {
   display: flex;
   align-items: center;
@@ -334,7 +323,6 @@ body {
   flex: 1;
 }
 
-/* ===== НАЗВАНИЕ + ВЕС В КОРЗИНЕ ===== */
 .cart-item-name {
   display: flex;
   align-items: baseline;
@@ -353,7 +341,6 @@ body {
   color: #868e96;
 }
 
-/* Цена в корзине — жирная чёрная */
 .cart-item-price {
   font-size: 14px;
   font-weight: 600;
@@ -383,7 +370,6 @@ body {
   background: #dee2e6;
 }
 
-/* ===== ИТОГО — ТОЛЬКО ЗДЕСЬ линия ===== */
 .cart-total {
   margin-top: 16px;
   padding-top: 16px;
@@ -398,7 +384,6 @@ body {
   color: #212529;
 }
 
-/* ===== LOADER ===== */
 .loader-container {
   display: flex;
   justify-content: center;
