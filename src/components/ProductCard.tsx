@@ -28,7 +28,7 @@ export function ProductCard({ product }: ProductCardProps) {
           gap={6}
           align="baseline"
           wrap="nowrap"
-          style={{ flex: 1, minWidth: 0 }}
+          className="product-name-group"
         >
           <Text className="name" truncate>
             {name}

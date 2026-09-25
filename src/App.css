@@ -390,3 +390,17 @@ body {
   align-items: center;
   padding: 4rem 0;
 }
+.product-name-group {
+  flex: 1;
+  min-width: 0;
+}
+
+.page-shell .mantine-AppShell-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.page-shell .mantine-AppShell-main {
+  background-color: #f3f5fa;
+}
